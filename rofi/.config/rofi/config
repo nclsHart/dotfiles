@@ -1,0 +1,6 @@
+rofi.modi: window,run,drun
+rofi.theme: gnome
+rofi.width: 100
+rofi.columns: 3
+rofi.drun-display-format: {name}
+rofi.bw: 0
