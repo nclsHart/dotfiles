@@ -1,11 +1,11 @@
 [alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
+    co = checkout
+    br = branch
+    ci = commit
+    st = status
 [user]
-	name = Nicolas Hart
-	email = contact@nclshart.net
+    name = Nicolas Hart
+    email = contact@nclshart.net
 [core]
-	excludesfile = /home/nclshart/.gitignore_global
-	editor = vim
+    excludesfile = /home/nclshart/.gitignore_global
+    editor = vim
