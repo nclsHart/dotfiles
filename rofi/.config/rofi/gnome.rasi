@@ -17,7 +17,7 @@
     lightbg:                     rgba ( 238, 232, 213, 100 % );
     selected-active-foreground:  rgba ( 166, 226, 42, 100 % );
     alternate-active-background: rgba ( 39, 40, 34, 0 % );
-    background:                  rgba ( 46, 52, 54, 93 % );
+    background:                  rgba ( 46, 52, 54, 95 % );
     bordercolor:                 rgba ( 0, 43, 54, 100 % );
     alternate-normal-foreground: @foreground;
     normal-background:           rgba ( 39, 40, 34, 0 % );
@@ -39,6 +39,8 @@
     background-color: @background;
     border:           0;
     padding:          5;
+    anchor:           north;
+    location:         north;
 }
 #mainbox {
     border:  0;
@@ -62,7 +64,7 @@
 }
 #element {
     border:  0;
-    padding: 2px;
+    padding: 4px;
 }
 #element.normal.normal {
     background-color: @normal-background;
