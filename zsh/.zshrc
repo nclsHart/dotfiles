@@ -72,3 +72,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias code="flatpak run com.visualstudio.code -n"
 alias i3config="vim ~/.config/i3/config"
+
+# Symfony CLI
+alias sfserve="symfony serve -d --no-interaction"
+alias sfstop="symfony server:stop"
