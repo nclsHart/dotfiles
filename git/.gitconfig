@@ -11,3 +11,5 @@
     editor = vim
 [pull]
     rebase = merges
+[credential]
+    helper = /usr/libexec/git-core/git-credential-libsecret
