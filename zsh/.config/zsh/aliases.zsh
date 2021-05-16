@@ -12,4 +12,5 @@ alias code="flatpak run com.visualstudio.code -n"
 
 # Symfony CLI
 alias sfserve="symfony serve -d --no-interaction"
+alias sfstart="symfony server:start"
 alias sfstop="symfony server:stop"
