@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+
+function lorem {
+    echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse posuere ipsum fermentum quam posuere, nec tempor orci congue. Vestibulum egestas pretium tellus eget vestibulum. Nunc sit amet auctor purus, quis aliquam leo. Donec ut risus sapien. Donec vel euismod ipsum, quis sagittis magna. Maecenas vitae consectetur eros, in vulputate lorem. Mauris nec massa luctus, fringilla massa ut, dapibus lacus. Suspendisse potenti. Curabitur tellus nunc, lacinia in sagittis vitae, ultricies vestibulum erat. Phasellus vitae tempor erat. Pellentesque aliquet metus imperdiet, rutrum nibh congue, malesuada ligula. Vivamus ut est sed quam vulputate fermentum ac id purus. Nullam mollis massa non nisl mattis, in ultrices nunc consequat." | xclip -selection clipboard 
+}

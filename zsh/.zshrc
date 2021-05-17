@@ -67,4 +67,5 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+source ~/.config/zsh/functions.zsh
 source ~/.config/zsh/aliases.zsh
