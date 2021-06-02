@@ -5,6 +5,7 @@ alias ll="exa -la"
 alias la="exa -a"
 alias tree="exa --tree"
 alias cat="bat --style=plain"
+alias gh="history|grep"
 
 # Editors
 alias code="flatpak run com.visualstudio.code -n"
