@@ -3,6 +3,9 @@
     br = branch
     ci = commit
     st = status
+    ri = "!f(){ git rebase -i --autosquash HEAD~${1}; }; f"
+    fixup = !sh -c 'git commit -m \"fixup! $(git log -1 --format='\\''%s'\\'' $@)\"' -
+    squash = !sh -c 'git commit -m \"squash! $(git log -1 --format='\\''%s'\\'' $@)\"' -
 [user]
     name = Nicolas Hart
     email = contact@nclshart.net
