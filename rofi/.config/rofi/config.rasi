@@ -1,0 +1,6 @@
+configuration {
+    modi: [window,run,drun];
+    drun-display-format: "{name}";
+    bw: 0;
+}
+@theme "gnome"
