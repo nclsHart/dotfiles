@@ -17,5 +17,5 @@ alias sfstop="symfony server:stop"
 
 # macOS like
 alias open="xdg-open"
-alias pbcopy='xclip -selection clipboard'
-alias pbpaste='xclip -selection clipboard -o'
+alias pbcopy="xclip -selection clipboard"
+alias pbpaste="xclip -selection clipboard -o"
